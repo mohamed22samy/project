@@ -1,0 +1,28 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+
+
+
+
+.bg {
+    height: 100vh;
+    width: 100vw;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(0px);
+}
+.loadingtext{
+    font-size: 40px;
+    font-weight: 900;
+    position: absolute;
+    top:45% ;
+    left: 45%;
+    color: rgb(255, 255, 255);
+    
+}
